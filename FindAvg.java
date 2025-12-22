@@ -1,0 +1,10 @@
+class FindAvg{
+	public static int findAvg(int numA,int numB,int numC){
+		return (numA+numB+numC)/3;
+	}
+	public static void main(String[] args){
+		FindAvg obj=new FindAvg();
+		int avg=obj.findAvg(10,20,30);
+		System.out.println("The Average of Three Numbers:" +avg);
+	}
+}
