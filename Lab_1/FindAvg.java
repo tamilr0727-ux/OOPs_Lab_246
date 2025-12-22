@@ -7,4 +7,5 @@ class FindAvg{
 		int avg=obj.findAvg(10,20,30);
 		System.out.println("The Average of Three Numbers:" +avg);
 	}
+
 }
